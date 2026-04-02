@@ -1,0 +1,161 @@
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 1 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+Fast Track Software Release
+Content:
+1 PURPOSE 3
+2 SCOPE 3
+3 DESCRIPTION 3
+3.1 Fast Track Release Situations 3
+3.1.1 Change in Internationalization 3
+3.1.2 Cybersecurity 3
+3.1.3 Software Labeling 4
+3.2 Process steps that can be skipped 4
+3.2.1 Phase 2 Tasks 4
+3.2.2 Phase 3A Task 4
+3.2.3 Phase 3B Task 4
+3.3 Mandatory Process Steps 4
+3.3.1 Phase 2 Task 4
+3.3.2 Phase 3A Task 5
+3.3.3 Phase 3B Task 5
+3.4 Documentation 5
+4 RESPONSIBILITIES 6
+5 OTHER APPLICABLE DOCUMENTS 6
+6 TERMS AND ABBREVIATIONS 6
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 2 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+Change Index:
+Index Date Change Name
+1 04.07.2022 Initial Revision Daniel Aberle
+2 26.03.2024 New MC template
+Change links
+Daniel Aberle
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 3 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+1 Purpose
+The purpose of this Work Instruction is to establish a process for a Fast-Track Software Release in
+special cases.
+2 Scope
+This work instruction applies to all software products with the following predefined changes during
+development:
+o Internationalization (add or changes in language files)
+o Software Labeling (change the labeling of the software from IUO to IVD)
+o Cybersecurity (minor updates of 3rd party components)
+This work instruction describes details necessary to comply with regulations and requirements, which
+are intended to result in validated products for the customer.
+This work instruction applies to all software R&D and production activities (including firmware) at Bruker
+Hain Lifescience GmbH (hereinafter referred to as Bruker), and covers Tier I, II, and III development
+projects.
+3 Description
+The goal is to ensure, that all need steps in the development lifecycle are performed and all unnecessary
+steps are skipped. These steps are performed without crossing the phase boundaries of the
+development process.
+3.1 Fast Track Release Situations
+3.1.1 Change in Internationalization
+Software is released with the capability to internationalize the software GUI. This means that new
+languages may be introduced, or existing languages may receive updates. Both of these actions are
+performed by modification of special language files.
+The first software release usually includes German and English as initial languages. Afterwards
+additional language could be added.
+These changes happen without modification of the main source code (only language files are modified)
+and only require an update of the software installer. To identify changes in language files, the last
+position in the version number of the Software will be increased. 3.1.2 Cybersecurity
+During the release process cybersecurity issues in 3rd party libraries can arise, which need immediately
+actions prior to the software release.
+If these changes are minor changes to the software product, e.g., updates of 3rd party components
+without breaking any compatibility with the existing code, the Fast-Track Release can be applied.
+These changes are no changes in the source code (except changes in the last position in the version
+number) and only in the installer of the Software.
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 4 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+3.1.3 Software Labeling
+After IVD validation of the software, the labeling of the software must be changed from IUO to IVD prior
+to the manufacturing release.
+These changes only have a small impact, because there are only small changes of the labeling of the software and a change in the installer of the software.
+3.2 Process steps that can be skipped
+The following steps in the software and product development lifecycle can be skipped during a Fast-
+Track Release. 3.2.1 Phase 2 Tasks• Software Verification• Phase transition
+3.2.2 Phase 3A Task• Risk Analysis• IFU Creation
+• Definition of PMS• Software Translation• Software training• Phase transition
+3.2.3 Phase 3B Task• Software validation• Usability testing• Clinical Study• Registration• Phase transition
+If one or more of the steps was not performed during the first release round, it must be performed during the Fast-Track Release. After reaching the process stage that initiated the Fast-Track Release, the
+development will continue the original process.
+All deliverables of the D&DP must be completed or updated.
+3.3 Mandatory Process Steps
+The following Steps in the Software and Product development lifecycle cannot be skipped during Fast-
+Track Release. Additionally, it must be considered if changes to the risk management file are required.
+3.3.1 Phase 2 Task• Update Software Verification and Validation Master Plan
+o Perform Installation Test
+o Perform Smoke Test
+• Update Software Release Notes• Software Finalization Release• Update Cybersecurity Master Record• Update SBOM
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 5 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+3.3.2 Phase 3A Task• Update final Risk Analysis• Software Image Creation
+3.3.3 Phase 3B Task• Software Product Release• Manufacturing Release
+3.4 Documentation
+The Fast-Track Release is documented in FM-102173
+No. WI-002173 Rev. 02
+Title: Fast-Track Software Release
+Process Owner / Prozessbesitzer: Nehren - Research and Development Page / Seite 6 of / von 6
+Effective Date / Freigabedatum: 03 Apr 2024 Packet No.: PKT-05180
+-Bruker Con fidential-
+4 Responsibilities
+Responsibility Matrix Organizational Areas
+Activities Software Department
+Software Release Process R, A
+R Responsible Responsible to actively execute the task and deliver in time
+A Accountable Accountable person for coordinating
+C Consulted Role contributes actively to solve the task
+I Informed Role is informed about the activity. Active contribution is not mandatory
+Department abbreviations per organization chart BDAL-DE.
+5 Other applicable documents
+Fast-Track Release Master Record FM-102173
+6 Terms and abbreviations
+Term or abbreviation Explanation
+IUO Investigation use Only
+This Software is only allowed to be used in Studies or validation
+testing
+Signature Manifest
+Document Number:
+WI-002173
+Revision:
+02
+Title:
+Fast-Track Software Release
+Effective Date:
+03 Apr 2024
+All dates and times are in Central European Time.
+Fast-Track Software Release
+Owner and SME Approval
+Name/Signature
+Title
+Date
+Meaning/Reason
+Peer Aramillo Irizar(PEER.ARAMILLO_IRIZAR)
+02 Apr 2024, 02:28:47 PM
+Approved
+Vera Allerheiligen(VERA.ALLERHEILIGEN)
+03 Apr 2024, 10:22:43 AM
+Approved
+Quality Approval
+Name/Signature
+Title
+Date
+Meaning/Reason
+Thomas Krespach(THOMAS.KRESPACH) forChristian Hackmann(CHRISTIAN.HACKMANN)
+03 Apr 2024, 10:39:57 AM
+Approved
