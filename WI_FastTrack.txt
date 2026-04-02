@@ -1,0 +1,112 @@
+All instructions that pertain to the use of this document are in blue italics. Delete all blue text instructions in the actual document. 
+In some table cells, examples or information are given for better comprehension. Replace these examples or information by the actual specifications. Format the inserted text to black and DIN regular. Text in normal typeface is standard content that should remain in the document. Other changes and deviations are permitted at the discretion of the Project Manager and R&D Manager.
+
+FAST-TRACK RELEASE MASTER PROTOCOL/RECORD
+
+Project name:	
+Project Manager:	
+Patch name:	
+Software Version	
+Document version:	
+
+If applicable:
+Git commit	
+Installer name	
+Software Image Version	
+
+1	Fast-Track Release initiation – Cyber Security Patch (CRA compliance)
+*Describe the cybersecurity vulnerability or threat that triggered this Fast-Track release. Reference the CVE identifier if applicable, CVSS score, and affected components. Include the discovery method below.
+
+Description of change:
+Removed cybersecurity risk “123”
+
+
+
+Associated risks:
+e.g. No new or altered risks identified due to the change described above. No changes to the Risk management file required
+Or
+Identified risks will be addressed in the risk management file 
+[include short description of identified risks here]
+
+
+1.1	Vulnerability Discover Method
+- ☐ Internal Discovery – Vulnerability identified through internal security testing, code review, or monitoring 
+- ☐ External Discovery – Vulnerability reported by external party (security researcher, customer, public disclosure, etc.). 
+- Reported by/Source: 
+State the name, organization, and contact information of the person or entity who reported the vulnerability. Include the reporting channel and date of initial report.
+Name	Organization	Contact Information	Reporting Channel	Date of Initial Report
+Person or entity who reported the vulnerability	Organization	Contact information	Reporting channel	Date of initial report
+
+
+1.2	Description of Cybersecurity Change
+Provide a detailed description of the cybersecurity vulnerability being addressed. Include technical details of the vulnerability, affected components, and the remediation approach.
+
+
+
+1.3	Associated Risks and Risk Management
+Evaluate whether the patch introduces new risks or alters existing risk assessments. Document any changes required to the Risk Management File.
+
+Risk Assessment:
+- ☐ No new or altered risks identified due to the change described above. No changes to the Risk Management File required.
+- ☐ Identified risks will be addressed in the Risk Management File
+2	Currents Release Phase
+Describe where in the development lifecycle this cybersecurity Fast-Track release is needed, list here the documents that need to be changed in D&DP. Justify the expedited process according to CRA requirements (e.g., critical vulnerability with active exploitation, imminent threat, public disclosure).
+
+Current Phase:
+-	Cyber Security Vulnerability found in phase3
+
+
+
+Documents Changed in D&DP:
+-	Requirements list – SPR document – SBOM – Test Record
+
+CRA Justification for Fast-Track:
+Asset/Component	Classification Level	Description	Rationale	Controls Required	Responsible Person	Documentation Reference
+Database Server	High	Stores end user personal data	Contains sensitive, regulated information	Encryption at rest and transit, access controls	Antonio B	Link Jira issue
+
+
+		   			
+
+3	CRA Reporting and Communication
+*Document all communications related to the cybersecurity patch required by CRA directives.* 
+3.1	Vulnerability Disclosure and Notification 
+•	Coordinated Disclosure Timeline:
+o	Specify the intended date for public disclosure of the vulnerability:
+
+
+
+o	Outline the timeline for each phase, including vendor notification, remediation, and public announcement:
+
+
+
+o	Provide a brief description of the overall communication strategy (e.g., staged rollout, embargo period):
+
+
+
+•	Identified and Notified Stakeholders:
+o	Enumerate all parties notified, including customers, partners, regulatory bodies, and internal teams:
+
+
+
+•	Communication Channels:
+
+o	List the means used for official communication: email notifications, security advisories, CVE/NVD publication, website updates, customer portals, etc.
+
+
+
+
+o	Include references or links to published advisories or bulletins.
+
+
+
+
+4	Fast-Track Release completed
+Name	 3A	 DD.MM.YYYY	 
+Project Manager 		Completed in Phase 	    Date              Signature Project Manager
+
+
+Change Listing
+Version	Date	Changed Chapters	Description of Changes	Author
+				
+
+
